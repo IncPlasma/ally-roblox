@@ -1,5 +1,5 @@
 {
-  "name": "adonis-ally-roblox",
+  "name": "@incplasma/ally-roblox",
   "version": "1.0.0",
   "description": "A boilerplate for a custom ally driver",
   "main": "build/providers/index.js",

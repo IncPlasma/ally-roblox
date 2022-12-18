@@ -1,6 +1,6 @@
 {
   "name": "adonis-ally-roblox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An AdonisJS Ally driver for Roblox",
   "main": "build/providers/index.js",
   "files": [

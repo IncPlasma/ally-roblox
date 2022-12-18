@@ -51,7 +51,7 @@ export class RobloxDriver extends Oauth2Driver<RobloxAccessToken, RobloxScopes> 
    * The URL for the redirect request. The user will be redirected on this page
    * to authorize the request.
    */
-  protected authorizeUrl = 'https://authorize.roblox.com'
+  protected authorizeUrl = 'https://apis.roblox.com/oauth/v1/authorize'
 
   /**
    * The URL to hit to exchange the authorization code for the access token

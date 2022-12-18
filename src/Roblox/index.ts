@@ -132,7 +132,7 @@ export class RobloxDriver extends Oauth2Driver<RobloxAccessToken, RobloxScopes> 
    * means "ACCESS DENIED".
    */
   public accessDenied() {
-    return this.ctx.request.input('error') === 'user_denied'
+    return this.ctx.request.input('error') === 'access_denied'
   }
 
   public async getUserInfo(accessToken, callback?: (request: ApiRequestContract) => void) {
